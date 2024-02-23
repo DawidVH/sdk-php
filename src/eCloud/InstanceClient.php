@@ -37,6 +37,7 @@ class InstanceClient extends Client implements ClientEntityInterface
             'volume_group_id' => 'volumeGroupId',
             'created_at' => 'createdAt',
             'updated_at' => 'updatedAt',
+            'enable_monitoring' => 'enableMonitoring',
         ];
     }
 

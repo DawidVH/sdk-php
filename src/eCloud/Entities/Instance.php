@@ -26,6 +26,7 @@ use UKFast\SDK\Entity;
  * @property string $volumeGroupId
  * @property string $createdAt
  * @property string $updatedAt
+ * @property-write boolean $enableMonitoring
  */
 class Instance extends Entity
 {
